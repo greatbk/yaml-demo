@@ -1,0 +1,22 @@
+mci:
+  list:
+    - name: DIS
+      protocol: https
+      address: p-mciap
+      port: 10000
+      context: /context/example/dis
+    - name: UBI
+      protocol: https
+      address: p-mciap
+      port: 10001
+      context: /context/example/ubi
+    - name: SMC
+      protocol: https
+      address: p-mciap
+      port: 10002
+      context: /context/example/smc
+    - name: PNP
+      protocol: https
+      address: p-mciap
+      port: 10003
+      context: /context/example/pnp
